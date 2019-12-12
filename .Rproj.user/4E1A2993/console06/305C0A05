@@ -1,3 +1,36 @@
 ]0;/home/kheineman/Rladies/RladiesReverseGIt]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ [K]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ git init.[K .
 Initialized empty Git repository in /home/kheineman/Rladies/RladiesReverseGIt/.git/
 ]0;/home/kheineman/Rladies/RladiesReverseGIt]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ git add .
+]0;/home/kheineman/Rladies/RladiesReverseGIt]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ git remote add origin https://github.com/heineperson/git2.git
+]0;/home/kheineman/Rladies/RladiesReverseGIt]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/heineperson/git2.git'
+]0;/home/kheineman/Rladies/RladiesReverseGIt]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ git commit -m '[K[K[K'[Km '[K'first commit'
+[master (root-commit) 5a99135] first commit
+ 12 files changed, 126 insertions(+)
+ create mode 100644 .Rproj.user/4E1A2993/console06/305C0A05
+ create mode 100644 .Rproj.user/4E1A2993/console06/305C0A05.env
+ create mode 100644 .Rproj.user/4E1A2993/console06/INDEX001
+ create mode 100644 .Rproj.user/4E1A2993/sources/prop/1C806BF3
+ create mode 100644 .Rproj.user/4E1A2993/sources/prop/INDEX
+ create mode 100644 .Rproj.user/4E1A2993/sources/s-7d1e5c8a/4F20F2AE
+ create mode 100644 .Rproj.user/4E1A2993/sources/s-7d1e5c8a/4F20F2AE-contents
+ create mode 100644 .Rproj.user/4E1A2993/sources/s-7d1e5c8a/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 01 File.R
+ create mode 100644 RladiesReverseGIt.Rproj
+]0;/home/kheineman/Rladies/RladiesReverseGIt]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ git commit -m 'first commit'[3Ppush -u origin masterremote add origin https://github.com/heineperson/git2.git
+fatal: remote origin already exists.
+]0;/home/kheineman/Rladies/RladiesReverseGIt]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ git remote add origin https://github.com/heineperson/git2.git[33Pcommit -m 'first commit'[3Ppush -u origin master
+Username for 'https://github.com': heineperson
+Password for 'https://heineperson@github.com': 
+Counting objects: 21, done.
+Delta compression using up to 16 threads.
+Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
+Writing objects:   4% (1/21)   Writing objects:   9% (2/21)   Writing objects:  14% (3/21)   Writing objects:  19% (4/21)   Writing objects:  23% (5/21)   Writing objects:  28% (6/21)   Writing objects:  33% (7/21)   Writing objects:  38% (8/21)   Writing objects:  42% (9/21)   Writing objects:  47% (10/21)   Writing objects:  52% (11/21)   Writing objects:  57% (12/21)   Writing objects:  61% (13/21)   Writing objects:  66% (14/21)   Writing objects:  71% (15/21)   Writing objects:  76% (16/21)   Writing objects:  80% (17/21)   Writing objects:  85% (18/21)   Writing objects:  90% (19/21)   Writing objects:  95% (20/21)   Writing objects: 100% (21/21)   Writing objects: 100% (21/21), 3.88 KiB | 795.00 KiB/s, done.
+Total 21 (delta 0), reused 0 (delta 0)
+To https://github.com/heineperson/git2.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;/home/kheineman/Rladies/RladiesReverseGIt]0;kheineman@mike-200-test: ~/Rladies/RladiesReverseGIt[01;32mkheineman@mike-200-test[00m:[01;34m~/Rladies/RladiesReverseGIt[00m$ git add .
